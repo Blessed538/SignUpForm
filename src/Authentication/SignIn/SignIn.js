@@ -24,12 +24,14 @@ class SignIn extends React.Component {
   render() {
     return (
       <div>
+
         <form onSubmit={this.handleSubmit}>
           <div className="container">
             <h2>Login Form</h2>
             <label htmlFor="uname">
               <b>Username</b>
             </label>
+
             <input
               onChange={this.handleChange}
               type="name"
@@ -40,14 +42,14 @@ class SignIn extends React.Component {
             />
 
             <label htmlFor="psw">
-              <b>Password</b>
+              <b>Email</b>
             </label>
 
             <input
               type="email"
               placeholder="Enter Email"
               name="email"
-              value={this.state.email}
+              // value={this.state.email}
               required
             />
 
@@ -55,7 +57,7 @@ class SignIn extends React.Component {
               type="password"
               placeholder="Enter Password"
               name="password"
-              value={this.state.password}
+              // value={this.state.password}
               required
             />
 

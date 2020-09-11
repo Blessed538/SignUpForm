@@ -51,6 +51,7 @@ span.psw {
 .sign {
   display: flex;
   flex-direction: space-between;
+  margin-left: -12px;
 }
 
 /* Change styles for span and cancel button on extra small screens */
